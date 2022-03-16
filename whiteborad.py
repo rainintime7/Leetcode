@@ -1,5 +1,3 @@
-from re import I
+for nx, ny in [(0, 5),(0,5)]:
+    print(nx, ny)
 
-
-for i in range(1, 10):
-    print (i)
