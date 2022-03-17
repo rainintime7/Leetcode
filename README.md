@@ -6,6 +6,7 @@ recording of solutions for leetcode
 剑指09 复杂度
 剑指10 矩阵快速幂
 剑指13 dfs solution
+剑指14 循环求余/快速幂求余
 
 20220316
 剑指12 dfs
