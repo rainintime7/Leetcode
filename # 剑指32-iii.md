@@ -9,7 +9,12 @@
 ]
 
 #### solution double-ended queue
+- use the length of return list to judge whether locate in an odd level or an even level
+
+
 - two-side queue, can pop element from left side or right side. here is some usage:
+
+
 
 ```python
 class collections.deque([iterable[, maxlen]])
@@ -70,7 +75,7 @@ rotate(n=1)
 # 如果deque不是空的，向右循环移动一步就等价于 d.appendleft(d.pop()) ， 向左循环一步就等价于 d.append(d.popleft()) 。
 
 ```
-- use the length of return list to judge whether locate in an odd level or an even level
+
 ```python
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
@@ -87,3 +92,8 @@ class Solution:
             res.append(list(tmp))
         return res
 ```
+
+##### time complexity 
+$O(N)$
+##### space complexity 
+$O(N)$
