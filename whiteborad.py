@@ -1,3 +1,2 @@
-for nx, ny in [(0, 5),(0,5)]:
-    print(nx, ny)
-
+L = [1,2,3]
+print(sum(L))
