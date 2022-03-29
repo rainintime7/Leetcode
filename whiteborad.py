@@ -1,2 +1,4 @@
-L = [1,2,3]
-print(sum(L))
+L = ['a','a','b']
+
+print(''.join(L))
+
