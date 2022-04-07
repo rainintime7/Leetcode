@@ -23,3 +23,5 @@ print(a.pre)
 # print(b)
 
 print([0]*3)
+s = '1234545'
+print(s.rfind('4', 0, 4))
